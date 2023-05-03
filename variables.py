@@ -49,3 +49,35 @@ print(bool(''))#False
 
 # any non-empty string is intrinsically True
 
+# input from user
+# num1 = input("enter a number")
+# num2 = input("enter another number")
+# print(num1)
+# print(num2)
+# print(num1 + num2)#concatenation
+
+# num3 = int(input("enter a number"))
+# num4 = int(input("enter another number"))
+# print(num3)
+# print(num4)
+# print(num3 + num4)#4 - the numbers have been coerced from str type to int type
+
+# num5 = float(input("enter a number"))
+# num6 = float(input("enter another number"))
+# print(num5)
+# print(num6)
+# print(num5 + num6)#4 - the numbers have been coerced from str type to int type
+
+name = 'Smith'
+print(name)
+age = 21
+print(age)
+print("Name: " + name)
+# print("Age: " + age)#ERROR
+print("Age: " + str(age))
+
+input_name = input("Enter some letters")
+print(type(input_name))
+input_number = float(input("Enter some digit characters"))
+print(type(input_number))
+
