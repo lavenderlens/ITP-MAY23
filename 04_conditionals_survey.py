@@ -15,3 +15,5 @@ if over 60,
 '''
 
 print("SOCIAL MEDIA SURVEY: please enter your age >>>")
+age = input()
+age = input("SOCIAL MEDIA SURVEY: please enter your age >>>")
